@@ -8,9 +8,9 @@ function FAQ() {
     return (
         <ContentLayout>
             <div className="pb-10">
-                <h2 className="text-lg my-5 font-semibold text-[#FF9800]">TRENDING NOW</h2>
-                <div className='bg-[#D9D9D9] p-10 '>
-                    <div className="w-10/12 mx-auto">
+                <h2 className="text-lg my-5 font-semibold text-[#FF9800]">FREQUENTLY ASKED QUESTIONS</h2>
+                <div className='py-10 '>
+                    <div className="mx-auto">
                         <Accordion className='space-y-5'>
                             <Accordion.Panel className='space-y-0'>
                                 <Accordion.Title className='bg-[#E9E9E9]'>lorem ipsume faq ipsum lorem moren nonre</Accordion.Title>

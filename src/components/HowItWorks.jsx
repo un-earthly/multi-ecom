@@ -45,8 +45,8 @@ export default function HowItWorks() {
         <ContentLayout>
 
             <div className=''>
-                <h2 className="text-lg my-5 font-semibold text-[#FF9800]">HOW IT WORKS</h2>
-                <div className="grid grid-cols-6 gap-10 relative">
+                <h2 className="text-lg my-5 mb-10 font-semibold text-[#FF9800]">HOW IT WORKS</h2>
+                <div className="grid xl:grid-cols-6 lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-10 relative">
                     {howItWorks.map(p => (
                         <div key={p.id}>
                             <HIWCard description={p.description} icon={p.icon} title={p.title} />

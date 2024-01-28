@@ -16,7 +16,7 @@ export default function TrendingProducts() {
 
             <div className=''>
                 <h2 className="text-lg my-5 font-semibold text-[#FF9800]">TRENDING NOW</h2>
-                <div className="grid grid-cols-4 gap-10 relative">
+                <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-10 relative">
                     {products.slice(0, 4).map(p => (
                         <div key={p.id}> {/* Make sure to add a unique key */}
                             <ProductCard desc={p.desc} img={p.img} id={p.id} price={p.price} rating={p.rating} title={p.title} />
