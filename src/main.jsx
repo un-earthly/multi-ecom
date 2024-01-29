@@ -9,6 +9,7 @@ import Cart from "./pages/Cart.jsx"
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Layout from './components/Layout.jsx'
+import { CartProvider } from './context/CartContext.jsx'
 
 const router = createBrowserRouter([
   {
@@ -27,18 +28,20 @@ const router = createBrowserRouter([
   },
   {
     path: "/cart",
-    element: <Cart />
+    element: <Layout> <Cart /></Layout>
   }, {
     path: "/products",
-    element: <Products />
+    element: <Layout> <Products /></Layout>
   },
   {
     path: "/product/:id",
-    element: <ProductDetails />
-  }
+    element: <Layout><ProductDetails /></Layout>
+  },
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <CartProvider>
+      <RouterProvider router={router} />
+    </CartProvider>
   </React.StrictMode>,
 )
