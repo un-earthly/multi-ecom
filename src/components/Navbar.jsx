@@ -9,7 +9,7 @@ export default function Navbar() {
         <header className='sticky -top-1 z-10'>
             <nav class="grid p-4 grid-cols-10 text-white  bg-[#4285F4]">
                 <div className="col-span-2 flex  items-center justify-center">
-                    <Link to="/"><h1 className="font-bol text-2xl">LOGO</h1></Link>
+                    <Link to="/"><img src="https://static.vecteezy.com/system/resources/previews/016/016/817/original/ecommerce-logo-free-png.png" className='h-10 invert' alt="" /></Link>
                 </div>
                 <div className="col-span-8">
                     <div className='w-full flex items-center justify-center '>
@@ -45,25 +45,25 @@ export default function Navbar() {
 
                     <nav className='flex  items-center py-1 justify-between'>
                         <div className='space-x-5'>
-                            <Link>
+                            <Link className='hover:text-blue-600 uppercase duration-300'>
                                 Categories
                             </Link>
-                            <Link>
+                            <Link className='hover:text-blue-600 uppercase duration-300'>
                                 Green Ideas
                             </Link>
-                            <Link>
+                            <Link className='hover:text-blue-600 uppercase duration-300'>
                                 USB Stock
                             </Link>
-                            <Link>
+                            <Link className='hover:text-blue-600 uppercase duration-300'>
                                 Sublimation
                             </Link>
-                            <Link>
+                            <Link className='hover:text-blue-600 uppercase duration-300'>
                                 Catalougues
                             </Link>
                         </div>
                         <div className='space-x-5'>
-                            <Link to="/login">Login</Link>
-                            <Link to="/register">Sign up</Link>
+                            <Link className='hover:text-blue-600 uppercase duration-300' to="/login">Login</Link>
+                            <Link className='hover:text-blue-600 uppercase duration-300' to="/register">Sign up</Link>
                         </div>
                     </nav>
                 </ContentLayout>
