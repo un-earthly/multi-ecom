@@ -9,7 +9,7 @@ export default function Navbar() {
         <header className='sticky -top-1 z-10'>
             <nav class="grid p-4 grid-cols-10 text-white  bg-[#4285F4]">
                 <div className="col-span-2 flex  items-center justify-center">
-                    <h1 className="font-bol text-2xl">LOGO</h1>
+                    <Link to="/"><h1 className="font-bol text-2xl">LOGO</h1></Link>
                 </div>
                 <div className="col-span-8">
                     <div className='w-full flex items-center justify-center '>
@@ -24,7 +24,7 @@ export default function Navbar() {
                         </div>
                         <div className="flex w-4/12 items-center justify-center">
                             <div className='relative'>
-                                <Link to="#">
+                                <Link to="/cart">
                                     <div>
                                         <div className="absolute -top-1 left-3 h-4 w-4 rounded-full bg-[#4285F4] flex items-start text-lg font-bold justify-center ">{cart.length}</div>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
@@ -49,19 +49,16 @@ export default function Navbar() {
                                 Categories
                             </Link>
                             <Link>
-                                Categories
+                                Green Ideas
                             </Link>
                             <Link>
-                                Categories
+                                USB Stock
                             </Link>
                             <Link>
-                                Categories
+                                Sublimation
                             </Link>
                             <Link>
-                                Categories
-                            </Link>
-                            <Link>
-                                Categories
+                                Catalougues
                             </Link>
                         </div>
                         <div className='space-x-5'>

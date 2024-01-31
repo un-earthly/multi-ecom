@@ -1,5 +1,6 @@
 import React from 'react'
 import ContentLayout from '../components/ContentLayout'
+import { Link } from 'react-router-dom'
 
 export default function Login() {
   return (
@@ -8,12 +9,15 @@ export default function Login() {
         <div className='border rounded-lg h-3/4 border-black w-1/2 flex items-center p-10 justify-center flex-col'>
           <h2 className='text-2xl mb-12 font-semibold text-[#FF9800]'>Login</h2>
           <form className="">
-            <input type="text" className='w-full rounded-lg shadow-inner ' />
-            <input type="text" className='w-full my-3 rounded-lg shadow-inner ' />
+            <input type="text" placeholder='Enter Email' className='w-full rounded-lg shadow-inner ' />
+            <input type="text" placeholder='Enter Password' className='w-full my-3 rounded-lg shadow-inner ' />
+            <div className='flex items-center justify-end'>
+              <Link to="/register" className='text-sm'>New Here? Register.</Link>
+            </div>
             <div className="h-10 relative my-7 ">
               <div className="text-zinc-800 mx-auto text-lg w-4/5 h-10 flex items-center justify-center bg-[#FF9800] rounded-[25px]">Login</div>
             </div>
-            <div className='flex items-center justify-between w-3/5 mx-auto'>
+            <div className='flex items-center justify-between w-2/5 mx-auto'>
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
                 <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
               </svg>

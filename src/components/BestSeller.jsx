@@ -18,7 +18,7 @@ export default function BestSeller() {
                 <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-10 relative">
                     {products.slice(0, 4).map(p => (
                         <div key={p.id}> {/* Make sure to add a unique key */}
-                            <ProductCard desc={p.desc} img={p.img} id={p.id} price={p.price} rating={p.rating} title={p.title} />
+                            <ProductCard desc={p.desc} hoverImg={p.hover} img={p.img} id={p.id} price={p.price} rating={p.rating} title={p.title} />
                         </div>
                     ))}
                     <div className="absolute -right-5 top-1/2">
