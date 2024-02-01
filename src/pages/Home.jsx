@@ -14,7 +14,7 @@ export default function Home() {
       <TrendingProducts />
       <BestSeller />
       <HotSales />
-      <Features />
+      {/* <Features /> */}
       <HowItWorks />
       <FAQ />
     </div>

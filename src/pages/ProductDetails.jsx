@@ -23,7 +23,7 @@ export default function ProductDetails() {
   return (
     <ContentLayout>
 
-      <div class="flex flex-col md:flex-row -mx-4 my-10">
+      <div class="flex  flex-col md:flex-row -mx-4 mt-20 my-10">
         <div class="md:flex-1 px-4">
           <div class="h-[460px] rounded-lg bg-gray-300 dark:bg-gray-700 mb-4">
             <img class="w-full h-full object-cover" src="https://cdn.pixabay.com/photo/2020/05/22/17/53/mockup-5206355_960_720.jpg" alt="Product Image" />
@@ -106,9 +106,10 @@ export default function ProductDetails() {
           </div>
         </div>
       </div>
-      <div className='bg-[#4285F4] flex items-center justify-center px-40 h-40'>
-        <input type="text" className="bg-white border-none h-10 outline-none w-full" />
 
+
+      <div className="border-t">
+        
       </div>
 
 
