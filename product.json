@@ -1,86 +1,96 @@
 [
     {
         "id": 1,
-        "hover": "https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/636bbdc2c413b16e6c00bc55.jpg",
-        "img": "https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/635fa705b93567aff1082113.jpg",
-        "title": "Product 1",
+        "hover": "/t-shirt.png",
+        "img": "/t-shirt.png",
+        "title": "T Shirt",
         "price": 19.99,
         "desc": "Description of Product 1",
-        "rating": 4.5
+        "rating": 4.5,
+        "category": "2"
     },
     {
         "id": 2,
-        "img": "https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/5d0cc5c16eb51d00084a623d.jpg",
-        "hover": "https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/638748c3a8b634f4fb05a9df.jpg",
-        "title": "Product 2",
+        "img": "/t-shirt.png",
+        "hover": "/t-shirt.png",
+        "title": "T Shirt",
         "price": 24.99,
         "desc": "Description of Product 2",
-        "rating": 4.2
+        "rating": 4.2,
+        "category": "2"
     },
     {
         "id": 3,
         "img": "https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/5d0cc5c16eb51d00084a623d.jpg",
         "hover": "https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/638748c3a8b634f4fb05a9df.jpg",
-        "title": "Product 3",
+        "title": "Cup",
         "price": 29.99,
         "desc": "Description of Product 3",
-        "rating": 4.8
+        "rating": 4.8,
+        "category": "3"
     },
     {
         "id": 4,
-        "img": "https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/5d0cc5c16eb51d00084a623d.jpg",
-        "hover": "https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/638748c3a8b634f4fb05a9df.jpg",
-        "title": "Product 4",
+        "img": "/bag.png",
+        "hover": "/bag.png",
+        "title": "Bag",
         "price": 14.99,
         "desc": "Description of Product 4",
-        "rating": 4.1
+        "rating": 4.1,
+        "category": "1"
     },
     {
         "id": 5,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFTdW-0mGRzVJhREQhNb0mdhAdA3c5j7MeGpkkbQ8VRw&s",
-        "title": "Product 5",
+        "img": "/case.png",
+        "title": "Phone Case",
         "price": 39.99,
         "desc": "Description of Product 5",
-        "rating": 4.9
+        "rating": 4.9,
+        "category": "5"
     },
     {
         "id": 6,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFTdW-0mGRzVJhREQhNb0mdhAdA3c5j7MeGpkkbQ8VRw&s",
-        "title": "Product 6",
+        "img": "/cap.png",
+        "title": "Cap",
         "price": 49.99,
         "desc": "Description of Product 6",
-        "rating": 4.7
+        "rating": 4.7,
+        "category": "9"
     },
     {
         "id": 7,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFTdW-0mGRzVJhREQhNb0mdhAdA3c5j7MeGpkkbQ8VRw&s",
-        "title": "Product 7",
+        "img": "/pillow.png",
+        "title": "Pillow",
         "price": 54.99,
         "desc": "Description of Product 7",
-        "rating": 4.3
+        "rating": 4.3,
+        "category": "10"
     },
     {
         "id": 8,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFTdW-0mGRzVJhREQhNb0mdhAdA3c5j7MeGpkkbQ8VRw&s",
-        "title": "Product 8",
+        "img": "/pillow.png",
+        "title": "Pillow",
         "price": 44.99,
         "desc": "Description of Product 8",
-        "rating": 4.6
+        "rating": 4.6,
+        "category": "10"
     },
     {
         "id": 9,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFTdW-0mGRzVJhREQhNb0mdhAdA3c5j7MeGpkkbQ8VRw&s",
-        "title": "Product 9",
+        "img": "/t-shirt.png",
+        "title": "T Shirt",
         "price": 19.99,
         "desc": "Description of Product 9",
-        "rating": 4.4
+        "rating": 4.4,
+        "category": "2"
     },
     {
         "id": 10,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFTdW-0mGRzVJhREQhNb0mdhAdA3c5j7MeGpkkbQ8VRw&s",
-        "title": "Product 10",
+        "img": "/t-shirt.png",
+        "title": "T Shirt",
         "price": 34.99,
         "desc": "Description of Product 10",
-        "rating": 3.5
+        "rating": 3.5,
+        "category": "2"
     }
 ]

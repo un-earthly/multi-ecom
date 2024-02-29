@@ -14,23 +14,13 @@ export default function ProductDetails() {
   const { addToCart } = useCart();
   const [tab, setTab] = useState(1)
   const [count, setCount] = useState(1);
-
-  const handleDecrement = () => {
-    if (count > 1) {
-      setCount(count - 1);
-    }
-  };
-
-  const handleIncrement = () => {
-    setCount(count + 1);
-  };
   return (
     <ContentLayout>
 
       <div class="flex  flex-col md:flex-row -mx-4 mt-20 my-10">
         <div class="md:flex-1 px-4">
           <div class="h-[460px] rounded-lg bg-gray-300 dark:bg-gray-700 mb-4">
-            <img class="w-full h-full object-cover" src="https://cdn.pixabay.com/photo/2020/05/22/17/53/mockup-5206355_960_720.jpg" alt="Product Image" />
+            <img class="w-full h-full object-cover" src={product.img} alt="Product Image" />
           </div>
           <div class="flex -mx-2 mb-4">
           </div>
@@ -44,16 +34,16 @@ export default function ProductDetails() {
           </p>
           <ul className='list-disc px-4'>
             <li>Material: 100% brushed polyester
-</li>
+            </li>
             <li>Seam thread color automatically matched to design (black or white)
-</li>
+            </li>
             <li>Assembled in the USA from globally sourced parts
-</li>
+            </li>
             <li>Size and care information printed inside the collar
 
-</li>
+            </li>
             <li>Light fabric (5.16 oz/yd² (175 g/m²))
-</li>
+            </li>
           </ul>
           <div className="flex flex-col space-y-4 justify-center px-2 my-3 mt-14">
             <button onClick={() => addToCart({ ...product, quantity: count })} className="w-1/2 border-2 hover:bg-transparent duration-300 hover:border-[#ff9800] border-transparent  bg-[#ff9800] py-2 px-4 rounded-full font-bold">Add to Cart</button>
@@ -71,7 +61,7 @@ export default function ProductDetails() {
             <span className='capitalize'>
               sort by
             </span>
-            <div className="border border flex itemm-center rounded justify-between">
+            <div className="border flex itemm-center rounded justify-between">
               Printify ranking
             </div>
           </div>
@@ -85,7 +75,7 @@ export default function ProductDetails() {
           </div>
           <div className='flex space-x-4'>
             <button className='border px-3 py-1 rounded flex items-center justify-center'>Provider info</button>
-            <button className='bg-green-400 px-3 py-1 rounded flex items-center justify-center'>Start Designing</button>
+            <button className='bg-green-400 px-3 py-1 rounded flex items-center justify-center' onClick={() => window.open(`https://ecomm.iertqa.com/editor.php?product_base=${product.category}`)}>Start Designing</button>
           </div>
         </div>
       </div>
