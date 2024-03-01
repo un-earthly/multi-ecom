@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "hover": "/shirt-thumb-thumbn.jpg",
         "img": "/shirt-thumb-thumbn.jpg",
+        "hover": "https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/6381049d7e488c83fb04893c.jpg",
         "title": "T Shirt",
         "price": 19.99,
         "desc": "Description of Product 1",
@@ -12,7 +12,7 @@
     {
         "id": 2,
         "img": "/shirt-thumb-thumbn.jpg",
-        "hover": "/shirt-thumb-thumbn.jpg",
+        "hover": "https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/6381049d7e488c83fb04893c.jpg",
         "title": "T Shirt",
         "price": 24.99,
         "desc": "Description of Product 2",
@@ -22,7 +22,7 @@
     {
         "id": 3,
         "img": "/cup_thumb-thumbn.jpg",
-        "hover": "/cup_thumb-thumbn.jpg",
+        "hover": "https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/65d715e36999621d2308d3a2.jpg",
         "title": "Cup",
         "price": 29.99,
         "desc": "Description of Product 3",
@@ -32,7 +32,7 @@
     {
         "id": 4,
         "img": "/bag-thumb-thumbn.jpg",
-        "hover": "/bag-thumb-thumbn.jpg",
+        "hover": "https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/62b02ad7ebb57f0d3e07ac80.jpg",
         "title": "Bag",
         "price": 14.99,
         "desc": "Description of Product 4",
@@ -42,6 +42,7 @@
     {
         "id": 5,
         "img": "/phonecase_thumb-thumbn.jpg",
+        "hover": "https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/6343f4b8a85fd1da770761e9.jpg",
         "title": "Phone Case",
         "price": 39.99,
         "desc": "Description of Product 5",
@@ -51,6 +52,7 @@
     {
         "id": 7,
         "img": "/pillow-thumb-thumbn.jpg",
+        "hover": "https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/635793baa51824bd42084988.jpg",
         "title": "Pillow",
         "price": 54.99,
         "desc": "Description of Product 7",
@@ -60,6 +62,7 @@
     {
         "id": 8,
         "img": "/pillow-thumb-thumbn.jpg",
+        "hover": "https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/635793baa51824bd42084988.jpg",
         "title": "Pillow",
         "price": 44.99,
         "desc": "Description of Product 8",
@@ -69,6 +72,7 @@
     {
         "id": 9,
         "img": "/shirt-thumb-thumbn.jpg",
+        "hover": "https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/6381049d7e488c83fb04893c.jpg",
         "title": "T Shirt",
         "price": 19.99,
         "desc": "Description of Product 9",
@@ -78,6 +82,7 @@
     {
         "id": 10,
         "img": "/shirt-thumb-thumbn.jpg",
+        "hover": "https://printify.com/cdn-cgi/image/width=320,quality=100,format=avif/https://images.printify.com/api/catalog/6381049d7e488c83fb04893c.jpg",
         "title": "T Shirt",
         "price": 34.99,
         "desc": "Description of Product 10",

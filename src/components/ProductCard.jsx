@@ -7,9 +7,9 @@ export default function ProductCard({ hoverImg,img, title, price, desc, rating, 
 const [hover,setHoverTrue] = useState(false)
     return (
         <div className='rounded-lg shadow-xl overflow-hidden bg-[#f0f0f0]' onMouseEnter={()=>setHoverTrue(true)} onMouseLeave={()=>setHoverTrue(false)}>
-            <div>
+            <div className='bg-white'>
                 <Link to={"product/" + id}>
-                    <img src={hover ? hoverImg :img} className='w-full h-60 object-cover' alt="" />
+                    <img src={hover ? hoverImg :img} className='w-full h-60 object-contain' alt="" />
                 </Link>
             </div>
             <div className='p-4 text-gray-800'>

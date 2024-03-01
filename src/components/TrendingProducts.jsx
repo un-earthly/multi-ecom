@@ -14,7 +14,7 @@ export default function TrendingProducts() {
     const randomIndex = Math.floor(Math.random() * (products.length - 3));
 
     // Slice the array starting from the random index and take 4 items
-    const randomFourItems = products.slice(randomIndex, randomIndex + 3);
+    const randomFourItems = products.slice(randomIndex, randomIndex + 4);
     return (
         <ContentLayout>
 
