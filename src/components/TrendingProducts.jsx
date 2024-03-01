@@ -10,14 +10,18 @@ import products from "../../product.json"
 import ContentLayout from './ContentLayout';
 import ShowMoreBtn from './ShowMoreBtn';
 export default function TrendingProducts() {
-    console.log(products)
+    // Generate a random starting index
+    const randomIndex = Math.floor(Math.random() * (products.length - 3));
+
+    // Slice the array starting from the random index and take 4 items
+    const randomFourItems = products.slice(randomIndex, randomIndex + 3);
     return (
         <ContentLayout>
 
             <div className=''>
                 <h2 className="text-lg my-5 font-semibold text-[#FF9800]">TRENDING NOW</h2>
                 <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-10 relative">
-                    {products.slice(0, 4).map(p => (
+                    {randomFourItems.map(p => (
                         <div key={p.id}> {/* Make sure to add a unique key */}
                             <ProductCard hoverImg={p.hover} desc={p.desc} img={p.img} id={p.id} price={p.price} rating={p.rating} title={p.title} />
                         </div>
